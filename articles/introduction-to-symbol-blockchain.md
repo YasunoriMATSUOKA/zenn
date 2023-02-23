@@ -3,7 +3,7 @@ title: "Symbolブロックチェーン入門"
 emoji: "⛓"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript", "typescript", "nodejs", "blockchain", "symbol"]
-published: false
+published: true
 ---
 
 Symbolブロックチェーンのユースケースとして、Symbolブロックチェーンの基軸トークンであるXYMを用いた決済があります。この記事ではその際に必要となる以下の要素技術についてTypeScriptでのサンプルコードで解説します。
@@ -19,7 +19,7 @@ Symbolブロックチェーンのユースケースとして、Symbolブロッ�
   - 例として1000円のXYMを払ってもらいたい状況を想定
   - 支払いを受ける側のアドレスは`TARDV42KTAIZEF64EQT4NXT7K55DHWBEFIXVJQY`とする
   - 着金トランザクションの識別のため請求側でUUIDを発行しトランザクションにメッセージとして付与してもらう
-- 支払いを行う側はSymbol公式モバイルウォレット[https://play.google.com/store/apps/details?id=nem.group.symbol.wallet](https://play.google.com/store/apps/details?id=nem.group.symbol.wallet)やArcana[https://play.google.com/store/apps/details?id=com.shu.software.symbol_arcana](https://play.google.com/store/apps/details?id=com.shu.software.symbol_arcana)等のモバイルウォレットでQRコードを読み込んで支払いを行いたい状況を想定
+- 支払いを行う側はSymbol公式モバイルウォレット [https://play.google.com/store/apps/details?id=nem.group.symbol.wallet](https://play.google.com/store/apps/details?id=nem.group.symbol.wallet)やArcana [https://play.google.com/store/apps/details?id=com.shu.software.symbol_arcana](https://play.google.com/store/apps/details?id=com.shu.software.symbol_arcana)等のモバイルウォレットでQRコードを読み込んで支払いを行いたい状況を想定
 - (説明の簡略化のため)支払いを行う側のアカウントはマルチシグアカウントではないものと仮定
 
 ## 環境構築
