@@ -1,5 +1,5 @@
 ---
-title: "Symbolブロックチェーン入門"
+title: "Symbolブロックチェーン入門(QRコードやトランザクションURIを用いたSymbol決済)"
 emoji: "⛓"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript", "typescript", "nodejs", "blockchain", "symbol"]
@@ -61,6 +61,7 @@ node_modules/
 `index.ts`ファイルを作成し以下のような実装を行い`npx ts-node index.ts`コマンドで実行してみましょう。
 
 ```ts:index.ts
+import crypto from "crypto";    
 import axios from "axios";
 
 const jpyAmount = 1000;
